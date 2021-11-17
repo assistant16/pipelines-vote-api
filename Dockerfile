@@ -1,4 +1,4 @@
-FROM image-registry.openshift-image-registry.svc:5000/openshift/golang:latest as builder
+FROM ocr.icdc.io/ubi7/go-toolset:1.13.4
 
 WORKDIR /build
 ADD . /build/
